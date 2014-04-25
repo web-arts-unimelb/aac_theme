@@ -1,0 +1,9 @@
+name = AAC theme
+description = AAC theme 
+base theme = rubik
+package = Core
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/aac.css
+scripts[] = js/aac.js

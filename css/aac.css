@@ -1,0 +1,28 @@
+form#user-login input#edit-name.fluid {
+  width: 440px;
+}
+
+hr.aac_hr {
+  height: 1px;
+  width: 100%;
+  display: block;
+	border: 0;
+	border-top: 1px solid #dddddd;
+}
+
+div.node {
+	background:#fff 100% 0% !important;
+	background-image:none !important;
+}
+
+div.column-main {
+	width: 100%;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+.aac_nav.active {
+	color: red;
+}
