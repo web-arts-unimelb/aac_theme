@@ -26,3 +26,14 @@ h2 {
 .aac_nav.active {
 	color: red;
 }
+
+.block.site_header {
+	border: 0;
+	padding:0;
+	margin:0;
+}
+
+.block.site_header .block-content {
+	padding:0;
+	margin:0;
+}
