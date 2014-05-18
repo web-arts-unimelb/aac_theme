@@ -15,6 +15,11 @@ div.node {
 	background-image:none !important;
 }
 
+#main-content {
+	width: 900px;
+	margin: 0 auto;
+}
+
 div.column-main {
 	width: 100%;
 }
@@ -23,17 +28,71 @@ h2 {
 	font-size: 110%;
 }
 
-.aac_nav.active {
-	color: red;
-}
-
 .block.site_header {
 	border: 0;
 	padding:0;
 	margin:0;
+	text-align: center;
+}
+
+.block.site_header h1 {
+  font-size: 52px;
+  text-align: center;
 }
 
 .block.site_header .block-content {
 	padding:0;
 	margin:0;
 }
+
+.block.secondary_nav_menu {
+	text-align: center;
+	border: 0px;
+}
+
+.block.secondary_nav_menu .field-content a {
+	/*
+	background: #E8E8E6;
+  border: 1px solid #CCCCCC;
+  display: block;
+  float: left;
+  height: 35px;
+  padding: 26px 10px 20px;
+  */
+  
+  
+  background-color: #E8E8E6;
+  background-image: -moz-linear-gradient(center top , #E8E8E6, #DCDCDA);
+  border-left: 1px solid rgba(255, 255, 255, 0.28);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  color: #303030;
+  display: block;
+  float: left;
+  height: 35px;
+  padding: 26px 10px 20px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  transition: background-color 0.25s ease 0s;    
+}
+
+.aac_nav.active {
+	color: red;
+}
+
+.aac_nav .num {
+	font-size: 40px;
+}
+
+.aac_nav .title {
+	font-size: 15px;
+}
+
+#block-system-main {
+	border: 0px;
+}
+
+.column-main {
+	background: #E8E8E6;
+}
+
+
+
